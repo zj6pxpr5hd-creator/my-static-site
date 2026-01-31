@@ -22,8 +22,9 @@ function App() {
           count is {count}
         </button>
         <p>
-          Hi this is so cooooool
+          Hi there from my static site!, do you like it?
         </p>
+        <div> my name is ... </div>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
