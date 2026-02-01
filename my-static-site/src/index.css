@@ -66,3 +66,115 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+/*
+===========================
+      Custom Styles
+===========================
+*/
+
+:root{
+  --accent: #f63b3b;
+  --accent-dark: #7f1d1d;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+h1{
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+h2{
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+h2::before{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: var(--accent);
+  margin-top: 0.5rem;
+
+}
+
+p {
+  max-width: 65ch;
+}
+
+a{
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 0.8;
+}
+
+/*===========================
+    Project card
+============================*/
+
+.project-card {
+  border: 1px solid #e5e5e5;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-color: white;
+  margin-bottom: 1.5rem;
+  background-color: transparent;
+  color: white;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+
+
+.project-card a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+.tech{
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  opacity: 0.9;
+}
+
+
+/*============
+    SPACING
+=============*/
+
+section{
+  padding: 2rem 0;
+}
