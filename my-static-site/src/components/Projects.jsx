@@ -16,6 +16,13 @@ function Projects() {
                 tech= "html, css, javascript"
                 link= "https://codepen.io/Rouche-Capelli/pen/XJdgKWY"
             />
+
+            <ProjectCard
+                title = "Focus Tracker"
+                description = "Simple time tracker to record study sessions. The data gets saved in localStorage and is available between realoads"
+                tech = "React, Vite, Github pages for hosting"
+                link = "https://zj6pxpr5hd-creator.github.io/focus-tracker"  
+            />
         </section>
     );
 }
