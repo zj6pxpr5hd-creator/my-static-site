@@ -22,10 +22,19 @@ function Projects() {
             <ProjectCard
                 title = "Focus Tracker"
                 description = "Simple time tracker to record study sessions. The data gets saved in localStorage and is available between reloads"
-                tech = "React, Vite, Github pages for hosting"
+                tech = "React + Vite, Github pages for hosting"
                 link = "https://zj6pxpr5hd-creator.github.io/focus-tracker"
                 github = "https://github.com/zj6pxpr5hd-creator/focus-tracker.git"
             />
+
+            <ProjectCard
+                title = "Decision Journal"
+                description = "A minimal decision-tracking app designe for reflection rather than optimization. Built to explore UI, state management and local persistance"
+                tech = "React + Vite, Github pages for hosting"
+                link = "https://zj6pxpr5hd-creator.github.io/decision-journal/"
+                github = "https://github.com/zj6pxpr5hd-creator/decision-journal.git"
+            />
+            
         </section>
     );
 }
