@@ -34,6 +34,14 @@ function Projects() {
                 link = "https://zj6pxpr5hd-creator.github.io/decision-journal/"
                 github = "https://github.com/zj6pxpr5hd-creator/decision-journal.git"
             />
+
+            <ProjectCard
+                title = "Funny Decision Journal"
+                description = "A Decision Engine that responds to the priorities selected by the user. The answers are calculated based on user input (and are always sarcastic :) ) "
+                tech = "React + Vite, Github pages for hosting"
+                link = "https://zj6pxpr5hd-creator.github.io/funny-decision-engine/"
+                github = "https://github.com/zj6pxpr5hd-creator/funny-decision-engine"
+            />
             
         </section>
     );
