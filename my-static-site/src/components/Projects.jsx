@@ -29,14 +29,14 @@ function Projects() {
 
             <ProjectCard
                 title = "Decision Journal"
-                description = "A minimal decision-tracking app designe for reflection rather than optimization. Built to explore UI, state management and local persistance"
+                description = "A minimal decision-tracking app designed for reflection rather than optimization. Built to explore UI, state management and local persistance"
                 tech = "React + Vite, Github pages for hosting"
                 link = "https://zj6pxpr5hd-creator.github.io/decision-journal/"
                 github = "https://github.com/zj6pxpr5hd-creator/decision-journal.git"
             />
 
             <ProjectCard
-                title = "Funny Decision Journal"
+                title = "Funny Decision Engine"
                 description = "A Decision Engine that responds to the priorities selected by the user. The answers are calculated based on user input (and are always sarcastic :) ) "
                 tech = "React + Vite, Github pages for hosting"
                 link = "https://zj6pxpr5hd-creator.github.io/funny-decision-engine/"
