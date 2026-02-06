@@ -43,6 +43,14 @@ function Projects() {
                 github = "https://github.com/zj6pxpr5hd-creator/funny-decision-engine"
             />
             
+            <ProjectCard
+                title = "GitHub Fetcher"
+                description = "A web application that uses the GitHub REST API to fetch information about the repositories of a user and displays them"
+                tech = "React + Vite, Github pages for hosting"
+                link = "https://zj6pxpr5hd-creator.github.io/github-fetcher/"
+                github = "https://github.com/zj6pxpr5hd-creator/github-fetcher"
+            /> 
+            
         </section>
     );
 }
