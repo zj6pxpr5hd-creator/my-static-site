@@ -1,9 +1,23 @@
+import LatestProject from "./LatestProject";
 import ProjectCard from "./ProjectCard";
+import screenshot1 from "../assets/screenshot1.png";
 
 function Projects() {
     return (
         <section>
+            
             <h2>My Projects</h2>
+
+            <LatestProject
+                title = "GitHub Profile Explorer"
+                description = "A web app that fetches and analyzes public GitHub repositories to give a quick overview of a developer's activity."
+                tech = "React + Vite, GitHub API, Github pages for hosting"
+                link = "https://zj6pxpr5hd-creator.github.io/github-fetcher/"
+                github = "https://github.com/zj6pxpr5hd-creator/github-fetcher"
+                screenshot= {screenshot1}
+            /> 
+
+            <h3>Other Projects</h3>
             <ProjectCard
                 title="Javascript Calculator"
                 description="A simple calculator built to practice Javascript fundamentals and DOM manipulation."
@@ -43,13 +57,6 @@ function Projects() {
                 github = "https://github.com/zj6pxpr5hd-creator/funny-decision-engine"
             />
             
-            <ProjectCard
-                title = "GitHub Fetcher"
-                description = "A web application that uses the GitHub REST API to fetch information about the repositories of a user and displays them"
-                tech = "React + Vite, Github pages for hosting"
-                link = "https://zj6pxpr5hd-creator.github.io/github-fetcher/"
-                github = "https://github.com/zj6pxpr5hd-creator/github-fetcher"
-            /> 
             
         </section>
     );
