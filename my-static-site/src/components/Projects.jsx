@@ -1,6 +1,6 @@
 import LatestProject from "./LatestProject";
 import ProjectCard from "./ProjectCard";
-import screenshot1 from "../assets/screenshot1.png";
+import screenshot2 from "../assets/screenshot2.png";
 
 function Projects() {
     return (
@@ -9,12 +9,12 @@ function Projects() {
             <h2>My Projects</h2>
 
             <LatestProject
-                title = "GitHub Profile Explorer"
-                description = "A web app that fetches and analyzes public GitHub repositories to give a quick overview of a developer's activity."
-                tech = "React + Vite, GitHub API, Github pages for hosting"
-                link = "https://zj6pxpr5hd-creator.github.io/github-fetcher/"
-                github = "https://github.com/zj6pxpr5hd-creator/github-fetcher"
-                screenshot= {screenshot1}
+                title = "Poke-Cache"
+                description = "PokeCache is a small web application that consumes the PokeAPI and implements a client-side caching system using localStorage."
+                tech = "React + Vite, Poke API, Github pages for hosting"
+                link = "https://zj6pxpr5hd-creator.github.io/poke-fetcher/"
+                github = "https://github.com/zj6pxpr5hd-creator/poke-fetcher.git"
+                screenshot= {screenshot2}
             /> 
 
             <h3>Other Projects</h3>
@@ -57,6 +57,13 @@ function Projects() {
                 github = "https://github.com/zj6pxpr5hd-creator/funny-decision-engine"
             />
             
+            <ProjectCard
+                title = "GitHub Profile Explorer"
+                description = "A web app that fetches and analyzes public GitHub repositories to give a quick overview of a developer's activity."
+                tech = "React + Vite, GitHub API, Github pages for hosting"
+                link = "https://zj6pxpr5hd-creator.github.io/github-fetcher/"
+                github = "https://github.com/zj6pxpr5hd-creator/github-fetcher"
+            /> 
             
         </section>
     );
