@@ -1,6 +1,6 @@
 import LatestProject from "./LatestProject";
 import ProjectCard from "./ProjectCard";
-import screenshot2 from "../assets/screenshot2.png";
+import screenshot3 from "../assets/screenshot2.png";
 
 function Projects() {
     return (
@@ -9,12 +9,12 @@ function Projects() {
             <h2>My Projects</h2>
 
             <LatestProject
-                title = "Poke-Cache"
-                description = "PokeCache is a small web application that consumes the PokeAPI and implements a client-side caching system using localStorage."
-                tech = "React + Vite, Poke API, Github pages for hosting"
-                link = "https://zj6pxpr5hd-creator.github.io/poke-fetcher/"
-                github = "https://github.com/zj6pxpr5hd-creator/poke-fetcher.git"
-                screenshot= {screenshot2}
+                title = "SignalBoard"
+                description = "SignalBoard is a fullstack application for sharing previsions, insights nad ideas with the community"
+                tech = "React + Vite, Express.js, PostgreSQL, Vercel and Render for hosting"
+                link = "https://signal-board-omega.vercel.app/"
+                github = "https://github.com/zj6pxpr5hd-creator/signal-board.git"
+                screenshot= {screenshot3}
             /> 
 
             <h3>Other Projects</h3>
@@ -63,6 +63,14 @@ function Projects() {
                 tech = "React + Vite, GitHub API, Github pages for hosting"
                 link = "https://zj6pxpr5hd-creator.github.io/github-fetcher/"
                 github = "https://github.com/zj6pxpr5hd-creator/github-fetcher"
+            /> 
+
+            <ProjectCard
+                title = "Poke-Cache"
+                description = "PokeCache is a small web application that consumes the PokeAPI and implements a client-side caching system using localStorage."
+                tech = "React + Vite, Poke API, Github pages for hosting"
+                link = "https://zj6pxpr5hd-creator.github.io/poke-fetcher/"
+                github = "https://github.com/zj6pxpr5hd-creator/poke-fetcher.git"
             /> 
             
         </section>
