@@ -1,6 +1,6 @@
 import LatestProject from "./LatestProject";
 import ProjectCard from "./ProjectCard";
-import screenshot3 from "../assets/screenshot2.png";
+import screenshot3 from "../assets/screenshot3.png";
 
 function Projects() {
     return (
