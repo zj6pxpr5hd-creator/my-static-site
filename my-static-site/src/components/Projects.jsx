@@ -10,7 +10,7 @@ function Projects() {
 
             <LatestProject
                 title = "SignalBoard"
-                description = "SignalBoard is a fullstack application for sharing previsions, insights nad ideas with the community"
+                description = "SignalBoard is a fullstack application for sharing previsions, insights and ideas with the community"
                 tech = "React + Vite, Express.js, PostgreSQL, Vercel and Render for hosting"
                 link = "https://signal-board-omega.vercel.app/"
                 github = "https://github.com/zj6pxpr5hd-creator/signal-board.git"
