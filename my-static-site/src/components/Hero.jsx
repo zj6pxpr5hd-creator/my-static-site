@@ -1,12 +1,8 @@
 function Hero() {
     return (
         <section>
-            <div>
-                <h1>Edoardo Chessa</h1>
-                <p>Software Developer still in the making</p>
-                <p>Welcome to my first static site!</p>
-                <p>My portfolio is still a work in progress, but it will be constantly updated with new projects and experiences.</p>
-            </div>
+                <h1><span className="accent">E</span>doardo <span className="accent">C</span>hessa</h1>
+                <p>I design and build web applications from scratch to learn how complex systems work and how to create my own.</p>
         </section>
     );
 }
