@@ -1,6 +1,6 @@
 import LatestProject from "./LatestProject";
 import ProjectCard from "./ProjectCard";
-import screenshot3 from "../assets/screenshot3.png";
+import screenshot4 from "../assets/screenshot4.png";
 
 function Projects() {
     return (
@@ -9,15 +9,23 @@ function Projects() {
             <h2>My Projects</h2>
             <h3>Latest Project</h3>
             <LatestProject
+                title = "SchedulExams"
+                description = "Enter your exams and receive a simple, actionable daily study plan to prepare efficiently."
+                tech = "React + Vite, Vercel for hosting"
+                link = "https://schedule-exams.vercel.app/"
+                github = "https://github.com/zj6pxpr5hd-creator/schedule-exams"
+                screenshot= {screenshot4}
+            /> 
+
+            <h3>Other Projects</h3>
+
+            <ProjectCard
                 title = "SignalBoard"
                 description = "SignalBoard is a fullstack application for sharing previsions, insights and ideas with the community"
                 tech = "React + Vite, Express.js, PostgreSQL, Vercel and Render for hosting"
                 link = "https://signal-board-omega.vercel.app/"
                 github = "https://github.com/zj6pxpr5hd-creator/signal-board.git"
-                screenshot= {screenshot3}
             /> 
-
-            <h3>Other Projects</h3>
 
             <ProjectCard
                 title = "Poke-Cache"
